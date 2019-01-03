@@ -52,7 +52,8 @@ def get_average_age_for_season(data, season)
 
 
   end
-return answer/i.round
+  
+return answer/i.ceil
 end
 
 
