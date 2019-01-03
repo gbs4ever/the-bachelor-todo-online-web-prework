@@ -46,13 +46,13 @@ def get_average_age_for_season(data, season)
     answer = 0
     i=0
   data[season].select do |person_data|
-    answer  += person_data["age"]
+    answer  += person_data["age"].to_i
     i+=1
 
 
 
   end
-return answer/i
+return answer/i 
 end
 
 
