@@ -43,7 +43,7 @@ def get_occupation(data, hometown)
 end
 
 def get_average_age_for_season(data, season)
-Array = []
+array = []
   data[season].each do |person_data|
 answer= person_data["age"].to_f
 array <<answer
