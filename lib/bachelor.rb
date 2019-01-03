@@ -49,9 +49,9 @@ answer= person_data["age"].to_f
 array <<answer
 
 array.average
-return array
+binding.pry
 end
-
+return array
 end
 
 
